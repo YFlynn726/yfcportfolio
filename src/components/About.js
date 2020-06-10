@@ -9,14 +9,14 @@ class About extends Component {
         <div>
           <section className="about_left">
             <h2>About Me</h2>
-            <p>From Raliegh North Carolina</p>
+            <p className="slide-in-right">From Raleigh North Carolina</p>
             <p>I studied at Thinkful. </p>
           </section>
         </div>
 
         <div>
           <section className="about_right">
-            <p>
+            <p className="slide-in-left">
               My passion for coding started when I attended a chickTech event
               with my daughter about 4 years ago. I was blown away by all the
               amazing things technology can do. Throughout my experience with
@@ -36,7 +36,7 @@ class About extends Component {
               perspective and knowledge about the tech community.
             </p>
 
-            <p>
+            <p className="slide-in-left">
               When I am not coding, I am busy being a mother of 3 beautiful
               children and wife. My family and I are active and are firm
               believers in exploring new things. We enjoy kayaking, hiking,

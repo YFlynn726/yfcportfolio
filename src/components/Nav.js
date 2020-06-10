@@ -15,7 +15,7 @@ class Nav extends Component {
             <Link to="/AboutMe">
               <li className="dash">About Me</li>
             </Link>
-            <Link to="/Projects">
+            <Link to="/MyProjects">
               <li className="dash">My Projects</li>
             </Link>
             <Link to="/ContactMe">
