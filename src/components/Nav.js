@@ -13,13 +13,13 @@ class Nav extends Component {
           </Link>
           <ul className="nav-links">
             <Link to="/AboutMe">
-              <li className="dash">About Me</li>
+              <li className="dash">About</li>
             </Link>
             <Link to="/MyProjects">
-              <li className="dash">My Projects</li>
+              <li className="dash">Projects</li>
             </Link>
             <Link to="/ContactMe">
-              <li className="dash">Contact Me</li>
+              <li className="dash">Contact</li>
             </Link>
           </ul>
         </nav>

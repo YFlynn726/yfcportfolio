@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import "./projects.css";
-//import Screenshot from "./Screenshot.png";
-//import ExploreItScreenShot from "../ExploreItScreenShot.png";
+import paceimg from "./images/paceimg.png";
+import shugameimg from "./images/shugameimg.png";
+import salsaimg from "./images/salsaimg.png";
+import exploreimg from "./images/exploreimg.png";
 
 class Projects extends Component {
   state = {};
@@ -13,6 +15,7 @@ class Projects extends Component {
         <div className="slide-in-left">
           <section className="project_right">
             <h3 className="titles">Pace! App</h3>
+            <img src={paceimg} alt="Logo" className="screenshots" />
             <p>
               Pace! Can help you visually see how you perform at each of your
               runs. Track your pace and see how you compare from your previous
@@ -29,7 +32,7 @@ class Projects extends Component {
                   href="https://github.com/YFlynn726/paceclient"
                   rel="noopener noreferrer"
                   target="_blank"
-                  className="repo"
+                  className="links"
                 >
                   Github Link
                 </a>
@@ -40,7 +43,7 @@ class Projects extends Component {
                   href="https://paceclient.now.sh/"
                   rel="noopener noreferrer"
                   target="_blank"
-                  className="live"
+                  className="links"
                 >
                   Live Link
                 </a>
@@ -49,6 +52,8 @@ class Projects extends Component {
             <br />
 
             <h3 className="titles">Shu-game App</h3>
+            <img src={shugameimg} alt="Logo" className="screenshots" />
+
             <p>
               Shu-game can help users track their usage of their running shoes
               and hold their list of wish list items for those shoes they wish
@@ -64,7 +69,7 @@ class Projects extends Component {
                   href="https://github.com/YFlynn726/shugame-app"
                   rel="noopener noreferrer"
                   target="_blank"
-                  className="repo"
+                  className="links"
                 >
                   Github Link
                 </a>
@@ -75,7 +80,7 @@ class Projects extends Component {
                   href="https://shugame-app.now.sh/"
                   rel="noopener noreferrer"
                   target="_blank"
-                  className="live"
+                  className="links"
                 >
                   Live Link
                 </a>
@@ -86,15 +91,16 @@ class Projects extends Component {
 
         <div className="slide-in-right">
           <section className="project_left">
-            <h3 class="titles">Salsa Quiz App</h3>
+            <h3 className="titles">Salsa Quiz App</h3>
+            <img src={salsaimg} alt="Logo" className="screenshots" />
 
             <p>
-              This is to measure and teach prospective salsa students about
-              salsa dancing. Many people are interested in many different arts
-              of dancing but often hold back because of the false information
-              they have heard or hesitate because they don't know or understand
-              what it takes. This app introduces new prospective students about
-              the very basics of salsa dancing.
+              Measures and teaches prospective salsa students about salsa
+              dancing. Many people are interested in the arts of dancing but
+              often hold back because of the false information or hesitation
+              because they don't know the joy that comes from dancing. This app
+              introduces new prospective students about the very basics of salsa
+              dancing.
             </p>
 
             <p>Technologies used to create the app: HTML, CSS, jquery.</p>
@@ -105,6 +111,7 @@ class Projects extends Component {
                   href="https://github.com/YFlynn726/quizapp2"
                   rel="noopener noreferrer"
                   target="_blank"
+                  className="links"
                 >
                   Github Link
                 </a>
@@ -115,13 +122,16 @@ class Projects extends Component {
                   href="https://yflynn726.github.io/quizapp2/"
                   rel="noopener noreferrer"
                   target="_blank"
+                  className="links"
                 >
                   Live Link
                 </a>
               </li>
             </ul>
+            <br />
 
             <h3 class="titles">ExploreIt! App</h3>
+            <img src={exploreimg} alt="Logo" className="screenshots" />
 
             <p>
               Help users access current weather data to their travel destination
@@ -141,7 +151,7 @@ class Projects extends Component {
                   href="https://github.com/YFlynn726/ExploreIt-App"
                   rel="noopener noreferrer"
                   target="_blank"
-                  className="repo"
+                  className="links"
                 >
                   Github Link
                 </a>
@@ -152,7 +162,7 @@ class Projects extends Component {
                   href="https://yflynn726.github.io/ExploreIt-App/"
                   rel="noopener noreferrer"
                   target="_blank"
-                  className="live"
+                  className="links"
                 >
                   Live Link
                 </a>

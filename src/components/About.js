@@ -6,22 +6,22 @@ class About extends Component {
   render() {
     return (
       <div className="about_me">
-        <div>
+        <div className="size">
           <section className="about_left">
-            <h2>About Me</h2>
+            <h2 className="abouttitle">About Me</h2>
             <p className="slide-in-right">From Raleigh North Carolina</p>
             <p>I studied at Thinkful. </p>
           </section>
         </div>
 
-        <div>
+        <div className="size">
           <section className="about_right">
             <p className="slide-in-left">
               My passion for coding started when I attended a chickTech event
               with my daughter about 4 years ago. I was blown away by all the
               amazing things technology can do. Throughout my experience with
-              Thinkful, I soon discovered how effective problem-solving skills.
-              I enjoyed the challenge of having to overcome an obstacle. I also
+              Thinkful, I soon discovered my effective problem-solving skills. I
+              enjoyed the challenge of having to overcome an obstacle. I also
               enjoyed working with others when a challenge is too big to
               overcome alone. I found it's very important to be resourceful in
               this field.{" "}

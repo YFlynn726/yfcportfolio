@@ -13,12 +13,12 @@ class ContactInfo extends Component {
       <div>
         <section className="contactinfo">
           <div className="contact_left">
-            <h2>My Contact Information</h2>
-            <p>Feel free to reach out.</p>
+            <h2 className="contacttitle">My Contact Information</h2>
+            <p className="slide-in-left">Feel free to reach out.</p>
           </div>
 
           <div className="contact_right">
-            <ul class="contactinfo">
+            <ul className="contactinfo">
               <li className="contactme">
                 <a
                   href="https://github.com/YFlynn726"

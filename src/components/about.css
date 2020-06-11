@@ -84,23 +84,36 @@
   }
 }
 
-.home_left {
+/* .home_left {
   box-sizing: border-box;
   text-align: center;
-  font-size: 20px;
-  padding: 20px;
-}
+  font-size: 18px;
 
-.home_right {
+  padding: 20px;
+} */
+
+/* .size {
+  font-size: 18px;
+} */
+
+/* .home_right {
   box-sizing: border-box;
   margin-top: 15px;
   text-align: center;
   font-size: 18px;
+
   padding: 20px;
-}
+} */
 
 .about_me {
   padding: 25px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.abouttitle {
+  font-family: "Special Elite", cursive;
+  font-size: 32px;
 }
 
 @media only screen and (min-width: 768px) {
