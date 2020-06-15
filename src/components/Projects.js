@@ -130,7 +130,7 @@ class Projects extends Component {
             </ul>
             <br />
 
-            <h3 class="titles">ExploreIt! App</h3>
+            <h3 className="titles">ExploreIt! App</h3>
             <img src={exploreimg} alt="Logo" className="screenshots" />
 
             <p>
