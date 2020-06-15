@@ -30,7 +30,7 @@ class ContactInfo extends Component {
               </li>
               <li className="contactme">
                 <a
-                  href="https://www.linkedin.com/in/yajaira-flynn-corbin-7ba52117/"
+                  href="https://www.linkedin.com/in/yajairaflynncorbin/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >

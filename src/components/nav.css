@@ -120,6 +120,12 @@
   }
 }
 
+.dash:hover {
+  background-color: rgb(105, 33, 45);
+  border-radius: 6px;
+  padding-left: 15px;
+}
+
 .nav-container {
   display: flex;
   justify-content: space-around;
