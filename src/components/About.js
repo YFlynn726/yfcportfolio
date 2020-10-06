@@ -17,7 +17,7 @@ class About extends Component {
         <div className="size">
           <section className="about_right">
             <p className="slide-in-left">
-              My passion for coding started when I attended a chickTech event
+              My passion for coding started when I attended a ChickTech event
               with my daughter about 4 years ago. I was blown away by all the
               amazing things technology can do. Throughout my experience with
               Thinkful, I soon discovered my effective problem-solving skills. I

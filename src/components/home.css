@@ -137,3 +137,11 @@
     padding: 10px;
   }
 }
+
+img {
+  border-radius: 1rem;
+  height: 350px;
+}
+.image {
+  text-align: center;
+}
