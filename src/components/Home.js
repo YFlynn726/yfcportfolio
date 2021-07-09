@@ -19,7 +19,7 @@ class Home extends Component {
         <div className="slide-in-right">
           <section className="home_right">
             <h2>Hi! I'm Yajaira [Ja-hi-ra]</h2>
-            <p>I am a Full Stack Web Developer.</p>
+            <p>I am a Software Engineer.</p>
             <p>
               [JavaScript ES6, React, jQuery, HTML5, CSS3, Node.js, Github,
               Linux, Git, SQL, RESTful API]

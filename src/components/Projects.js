@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./projects.css";
-import paceimg from "./images/paceimg.png";
+import musicapp from "./images/music-app.png";
 import shugameimg from "./images/shugameimg.png";
-import salsaimg from "./images/salsaimg.png";
+import beats from "./images/beats.png";
 import exploreimg from "./images/exploreimg.png";
 
 class Projects extends Component {
@@ -14,22 +14,20 @@ class Projects extends Component {
 
         <div className="slide-in-left">
           <section className="project_right">
-            <h3 className="titles">Pace! App</h3>
-            <img src={paceimg} alt="Logo" className="screenshots" />
+            <h3 className="titles">My Music App</h3>
+            <img src={musicapp} alt="Logo" className="screenshots" />
             <p>
-              Pace! Can help you visually see how you perform at each of your
-              runs. Track your pace and see how you compare from your previous
-              runs. Determine what were the differences based on your notes you
-              made on that run experience. Grow your knowledge of your run
-              experience. Let's get those pace records tracked!
+              This music application plays chill vibes allowing any user to play
+              as background music while working or at a dinner event. The
+              application includes some animation and a clean modern look.
             </p>
 
-            <p>Technologies Used: React, CSS, JS, Jest</p>
+            <p>Technologies Used: React, CSS, JS, HTML</p>
 
             <ul>
               <li className="contact">
                 <a
-                  href="https://github.com/YFlynn726/paceclient"
+                  href="https://github.com/YFlynn726/my-music-player"
                   rel="noopener noreferrer"
                   target="_blank"
                   className="links"
@@ -40,7 +38,7 @@ class Projects extends Component {
 
               <li className="contact">
                 <a
-                  href="https://paceclient.now.sh/"
+                  href="https://my-music-player-q0yp5eu1h-ryryn2003.vercel.app/"
                   rel="noopener noreferrer"
                   target="_blank"
                   className="links"
@@ -91,24 +89,23 @@ class Projects extends Component {
 
         <div className="slide-in-right">
           <section className="project_left">
-            <h3 className="titles">Salsa Quiz App</h3>
-            <img src={salsaimg} alt="Logo" className="screenshots" />
+            <h3 className="titles">Beats App</h3>
+            <img src={beats} alt="Logo" className="screenshots" />
 
             <p>
-              Measures and teaches prospective salsa students about salsa
-              dancing. Many people are interested in the arts of dancing but
-              often hold back because of the false information or hesitation
-              because they don't know the joy that comes from dancing. This app
-              introduces new prospective students about the very basics of salsa
-              dancing.
+              The beats app is a fun app allowing users to play with music. The
+              user is able to manipulate the tempo and sounds of their choice. A
+              visual is provided for the user as the player is looping. Give it
+              a try and click the live link below. Let's check out your DJ
+              skills. This app was a fun project to work on.
             </p>
 
-            <p>Technologies used to create the app: HTML, CSS, jquery.</p>
+            <p>Technologies used to create the app: HTML, CSS, JavaScript.</p>
 
             <ul>
               <li className="contact">
                 <a
-                  href="https://github.com/YFlynn726/quizapp2"
+                  href="https://github.com/YFlynn726/BeatApp"
                   rel="noopener noreferrer"
                   target="_blank"
                   className="links"
@@ -119,7 +116,7 @@ class Projects extends Component {
 
               <li className="contact">
                 <a
-                  href="https://yflynn726.github.io/quizapp2/"
+                  href="https://yflynn726.github.io/BeatApp/"
                   rel="noopener noreferrer"
                   target="_blank"
                   className="links"

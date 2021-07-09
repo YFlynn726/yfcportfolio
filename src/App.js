@@ -5,7 +5,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import ContactInfo from "./components/ContactInfo";
 import Home from "./components/Home";
-import "./app.css";
+import "./App.css";
 
 class App extends Component {
   state = {};
