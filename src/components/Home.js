@@ -9,7 +9,7 @@ class Home extends Component {
       <div className="home_container">
         <div className="slide-in-left">
           <section className="home_left">
-            <h1 className="name">Yajaira Flynn-Corbin</h1>
+            <h1 className="name">Yajaira Flynn</h1>
             <div className="image">
               <img src={img} alt="pictureofme" />
             </div>
